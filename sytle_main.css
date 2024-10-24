@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    background-color: rgb(245, 186, 249);
+    text-shadow: 4px 3px 5px rgb(255, 255, 255);
+    justify-content: space-between;
+    padding: 1%;
+    margin: 2%;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+body{
+    background-image: url(../img/backround.jpg);
+    background-size: 100% auto;
+	background-repeat: repeat;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    
+}
+
+.link { 
+    text-decoration: none;
+    display: flex;
+    font-size: medium;
+    color: #000000;
+    display: inline-block;
+    padding: 5%;
+}
+
+.link:hover {
+    text-decoration: none;
+    display: flex;
+    color: #fcebcf; 
+    display: inline-block;
+    padding: 2%;
+}
+
+p{
+    text-decoration: none;
+    display: flex;
+    font-size: x-large;
+    color: #ffffff;
+    display: inline-block;
+}
